@@ -17,7 +17,7 @@ class FoxsysHomeState extends Equatable {
   const FoxsysHomeState.initial()
       : this(
           status: FoxsysHomeStatus.initial,
-          optionSelected: 0,
+          optionSelected: 2,
           appDisplayed: false,
         );
 

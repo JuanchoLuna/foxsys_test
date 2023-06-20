@@ -24,12 +24,24 @@ class $AssetsIconsGen {
   SvgGenImage get calendarClear =>
       const SvgGenImage('assets/icons/calendar-clear.svg');
 
+  /// File path: assets/icons/calendar_selected.svg
+  SvgGenImage get calendarSelected =>
+      const SvgGenImage('assets/icons/calendar_selected.svg');
+
+  /// File path: assets/icons/chat_selected.svg
+  SvgGenImage get chatSelected =>
+      const SvgGenImage('assets/icons/chat_selected.svg');
+
   /// File path: assets/icons/chatbubble.svg
   SvgGenImage get chatbubble =>
       const SvgGenImage('assets/icons/chatbubble.svg');
 
   /// File path: assets/icons/cube.svg
   SvgGenImage get cube => const SvgGenImage('assets/icons/cube.svg');
+
+  /// File path: assets/icons/cube_selected.svg
+  SvgGenImage get cubeSelected =>
+      const SvgGenImage('assets/icons/cube_selected.svg');
 
   /// File path: assets/icons/email_outline.svg
   SvgGenImage get emailOutline =>
@@ -45,6 +57,14 @@ class $AssetsIconsGen {
   /// File path: assets/icons/home.svg
   SvgGenImage get home => const SvgGenImage('assets/icons/home.svg');
 
+  /// File path: assets/icons/home_selected.svg
+  SvgGenImage get homeSelected =>
+      const SvgGenImage('assets/icons/home_selected.svg');
+
+  /// File path: assets/icons/key_selected.svg
+  SvgGenImage get keySelected =>
+      const SvgGenImage('assets/icons/key_selected.svg');
+
   /// File path: assets/icons/settings.svg
   SvgGenImage get settings => const SvgGenImage('assets/icons/settings.svg');
 
@@ -53,12 +73,17 @@ class $AssetsIconsGen {
         vector,
         backIcon,
         calendarClear,
+        calendarSelected,
+        chatSelected,
         chatbubble,
         cube,
+        cubeSelected,
         emailOutline,
         exit,
         foxsysLogo,
         home,
+        homeSelected,
+        keySelected,
         settings
       ];
 }
@@ -66,15 +91,51 @@ class $AssetsIconsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/calendar_selected.png
+  AssetGenImage get calendarSelected =>
+      const AssetGenImage('assets/images/calendar_selected.png');
+
+  /// File path: assets/images/chat_selected.png
+  AssetGenImage get chatSelected =>
+      const AssetGenImage('assets/images/chat_selected.png');
+
+  /// File path: assets/images/cube.png
+  AssetGenImage get cube => const AssetGenImage('assets/images/cube.png');
+
+  /// File path: assets/images/exit.png
+  AssetGenImage get exit => const AssetGenImage('assets/images/exit.png');
+
+  /// File path: assets/images/home_selected.png
+  AssetGenImage get homeSelected =>
+      const AssetGenImage('assets/images/home_selected.png');
+
   /// File path: assets/images/icon.png
   AssetGenImage get icon => const AssetGenImage('assets/images/icon.png');
+
+  /// File path: assets/images/key_selected.png
+  AssetGenImage get keySelected =>
+      const AssetGenImage('assets/images/key_selected.png');
 
   /// File path: assets/images/profile_image.jpg
   AssetGenImage get profileImage =>
       const AssetGenImage('assets/images/profile_image.jpg');
 
+  /// File path: assets/images/settings.png
+  AssetGenImage get settings =>
+      const AssetGenImage('assets/images/settings.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [icon, profileImage];
+  List<AssetGenImage> get values => [
+        calendarSelected,
+        chatSelected,
+        cube,
+        exit,
+        homeSelected,
+        icon,
+        keySelected,
+        profileImage,
+        settings
+      ];
 }
 
 class Assets {

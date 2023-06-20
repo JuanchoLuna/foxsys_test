@@ -93,7 +93,6 @@ class _Body extends StatelessWidget {
                           Text(
                             'Juan L.',
                             style: FOXSYSTextStyle.subtitle1.copyWith(
-                              fontWeight: FOXSYSFontWeight.bold,
                               color: FOXSYSColors.dark1,
                             ),
                           ),
@@ -149,8 +148,7 @@ class _Body extends StatelessWidget {
                           child: IconButton.outlined(
                             onPressed: () {},
                             icon: FoxsysUIImages.settings(
-                                color: FOXSYSColors.purpleDark,
-                                size: const Size(24, 24)),
+                                height: FOXSYSSpacing.xlg),
                           ),
                         ),
                         const SizedBox(width: FOXSYSSpacing.lg),
@@ -163,10 +161,8 @@ class _Body extends StatelessWidget {
                           ),
                           child: IconButton.filled(
                             onPressed: () {},
-                            icon: FoxsysUIImages.exit(
-                              color: FOXSYSColors.purpleDark,
-                              size: const Size(24, 24),
-                            ),
+                            icon:
+                                FoxsysUIImages.exit(height: FOXSYSSpacing.xlg),
                           ),
                         )
                       ],
