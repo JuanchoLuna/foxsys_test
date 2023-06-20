@@ -24,14 +24,6 @@ class $AssetsIconsGen {
   SvgGenImage get calendarClear =>
       const SvgGenImage('assets/icons/calendar-clear.svg');
 
-  /// File path: assets/icons/calendar_selected.svg
-  SvgGenImage get calendarSelected =>
-      const SvgGenImage('assets/icons/calendar_selected.svg');
-
-  /// File path: assets/icons/chat_selected.svg
-  SvgGenImage get chatSelected =>
-      const SvgGenImage('assets/icons/chat_selected.svg');
-
   /// File path: assets/icons/chatbubble.svg
   SvgGenImage get chatbubble =>
       const SvgGenImage('assets/icons/chatbubble.svg');
@@ -39,16 +31,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/cube.svg
   SvgGenImage get cube => const SvgGenImage('assets/icons/cube.svg');
 
-  /// File path: assets/icons/cube_selected.svg
-  SvgGenImage get cubeSelected =>
-      const SvgGenImage('assets/icons/cube_selected.svg');
-
   /// File path: assets/icons/email_outline.svg
   SvgGenImage get emailOutline =>
       const SvgGenImage('assets/icons/email_outline.svg');
-
-  /// File path: assets/icons/exit.svg
-  SvgGenImage get exit => const SvgGenImage('assets/icons/exit.svg');
 
   /// File path: assets/icons/foxsysLogo.svg
   SvgGenImage get foxsysLogo =>
@@ -57,39 +42,25 @@ class $AssetsIconsGen {
   /// File path: assets/icons/home.svg
   SvgGenImage get home => const SvgGenImage('assets/icons/home.svg');
 
-  /// File path: assets/icons/home_selected.svg
-  SvgGenImage get homeSelected =>
-      const SvgGenImage('assets/icons/home_selected.svg');
-
-  /// File path: assets/icons/key_selected.svg
-  SvgGenImage get keySelected =>
-      const SvgGenImage('assets/icons/key_selected.svg');
-
-  /// File path: assets/icons/settings.svg
-  SvgGenImage get settings => const SvgGenImage('assets/icons/settings.svg');
-
   /// List of all assets
   List<SvgGenImage> get values => [
         vector,
         backIcon,
         calendarClear,
-        calendarSelected,
-        chatSelected,
         chatbubble,
         cube,
-        cubeSelected,
         emailOutline,
-        exit,
         foxsysLogo,
-        home,
-        homeSelected,
-        keySelected,
-        settings
+        home
       ];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
+
+  /// File path: assets/images/bag-check.png
+  AssetGenImage get bagCheck =>
+      const AssetGenImage('assets/images/bag-check.png');
 
   /// File path: assets/images/calendar_selected.png
   AssetGenImage get calendarSelected =>
@@ -126,6 +97,7 @@ class $AssetsImagesGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [
+        bagCheck,
         calendarSelected,
         chatSelected,
         cube,

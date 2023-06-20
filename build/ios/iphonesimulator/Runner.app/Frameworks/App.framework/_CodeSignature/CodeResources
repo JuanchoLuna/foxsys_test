@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		nfyYxvd/u/KLNoUoGsc9vsjiZRs=
+		Do1AET3THyiW5f6SSO7oFuZSIOU=
 		</data>
 		<key>flutter_assets/AssetManifest.smcbin</key>
 		<data>
-		otVaTpMrEFakaY1wOQ8WPGvJf3s=
+		IbcV8mGUKDZNSHMvg5fDMakW9Xo=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		gor4onmBmhydWvH5z9c5hOqX6EY=
+		VADrnQEhymVUH2nSJhOH9JB0h3g=
 		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/fonts/OpenSans-Regular.ttf</key>
 		<data>
@@ -104,6 +104,10 @@
 		<data>
 		K0Ge5/pG0hpODInoz0pnEH1ajIU=
 		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/bag-check.png</key>
+		<data>
+		kE45Elfiyq8H6A7b+bbwmI5SDt4=
+		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/images/calendar_selected.png</key>
 		<data>
 		TYIzUvVOGfJwJgL8oiO5IBKF0L0=
@@ -155,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZXiyfEX2HwWM28dqIIljU9OU6CRKKwfBcgG69h0N28o=
+			gXQsSezS0J/IZ6lkysUSUsKw9NGppvomAcHtNjKHKsE=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.smcbin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ThZPDtPbl5uiYkoLj2t+LQzmIpNkr2wgliKaL+/xNw=
+			MY5sJVY/UF4MMtW4q0m/gP1xSBWkcdYmB80PiKW8sBU=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -197,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kq3H2bLUMcboS2zR05LENYu7frMds48XbdP9+++VmVc=
+			+9Wy0gD543iX4OzAH0vls7pPCfv3WreMQOWzJ+o3qKg=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/fonts/OpenSans-Regular.ttf</key>
@@ -317,6 +321,13 @@
 			<key>hash2</key>
 			<data>
 			PZq08HURANe6oT+0NbuNyxZDppxOZCPOPZ5q6H6Ps9Y=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/bag-check.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ozhkxCR0NW06bB5Xe8a3YeysqxM2yoJpa15Fa4j4ZaU=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/images/calendar_selected.png</key>

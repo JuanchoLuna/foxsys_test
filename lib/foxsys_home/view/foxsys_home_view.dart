@@ -21,35 +21,8 @@ class FoxsysHomeView extends StatelessWidget {
         appBar: CustomAppBar(),
         body: _FoxsysHomeForm(),
         bottomNavigationBar: FoxsysBottomNavigatorBar(),
-        floatingActionButton: _FloatingButton(),
+        floatingActionButton: FloatingButton(),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-      ),
-    );
-  }
-}
-
-class _FloatingButton extends StatelessWidget {
-  const _FloatingButton({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return OutlinedButton(
-      onPressed: () => print("it's pressed"),
-      style: ElevatedButton.styleFrom(
-        side: const BorderSide(width: 2, color: FOXSYSColors.purpleDark),
-        backgroundColor: FOXSYSColors.white,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(32),
-        ),
-      ),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(
-            horizontal: FOXSYSSpacing.lg, vertical: FOXSYSSpacing.s10),
-        child: Text(
-          '+ Action',
-          style: FOXSYSTextStyle.bodyText1.copyWith(
-              color: FOXSYSColors.purpleDark, fontWeight: FontWeight.w600),
-        ),
       ),
     );
   }
@@ -66,4 +39,3 @@ class _FoxsysHomeForm extends StatelessWidget {
     );
   }
 }
-

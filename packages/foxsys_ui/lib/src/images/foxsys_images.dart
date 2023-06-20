@@ -75,6 +75,15 @@ class FoxsysUIImages {
     );
   }
 
+  static Image bagCheck({double? height, double? width}) {
+    return Assets.images.bagCheck.image(
+      height: height,
+      width: width,
+      fit: BoxFit.fill,
+      package: 'foxsys_ui',
+    );
+  }
+
   static SvgImage foxsysLogo({Size? size, Color? color}) {
     return SvgImage(
       path: Assets.icons.foxsysLogo.path,
@@ -130,14 +139,6 @@ class FoxsysUIImages {
       size: size,
     );
   }
-
-  // static SvgImage exit({Size? size, Color? color}) {
-  //   return SvgImage(
-  //     path: Assets.icons.exit.path,
-  //     color: color,
-  //     size: size,
-  //   );
-  // }
 
   static SvgImage vector({Size? size, Color? color}) {
     return SvgImage(
