@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		KpD0e6fVx8C28pSfSRWrdANLpfY=
+		nfyYxvd/u/KLNoUoGsc9vsjiZRs=
 		</data>
 		<key>flutter_assets/AssetManifest.smcbin</key>
 		<data>
-		NBbg2f2fx/6kXCoIqf9iDuDdy9Y=
+		otVaTpMrEFakaY1wOQ8WPGvJf3s=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -34,15 +34,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		B+zJ2rg22oYyEYDNBZ/PteRDM8A=
-		</data>
-		<key>flutter_assets/packages/foxsys_ui/assets/fonts/NotoSansDisplay-Regular.ttf</key>
-		<data>
-		OQkbJokgob0uH4k9xiYTOMPSzJ8=
-		</data>
-		<key>flutter_assets/packages/foxsys_ui/assets/fonts/NotoSansDisplay-SemiBold.ttf</key>
-		<data>
-		MqUkDLnjfVfnTTJCfNfjuqfNfSs=
+		gor4onmBmhydWvH5z9c5hOqX6EY=
 		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/fonts/OpenSans-Regular.ttf</key>
 		<data>
@@ -54,7 +46,7 @@
 		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/Vector.svg</key>
 		<data>
-		cI4x1r7lIQ0Dj8gt+1x3AxhFZB4=
+		nL2Mdn/jGD4K1zE3DnzhhKMrGk8=
 		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/back_icon.svg</key>
 		<data>
@@ -64,6 +56,14 @@
 		<data>
 		65Vkhds+Kl0FHJ/GPZ6ZH92UylI=
 		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/calendar_selected.svg</key>
+		<data>
+		No80LOtqYPIP+aT9Mdm9DmT9GBY=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/chat_selected.svg</key>
+		<data>
+		5gL36zmqaA9sY3nHvhO0+aPVhng=
+		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/chatbubble.svg</key>
 		<data>
 		nh3WfWChz/UHu7YLZ5HldpUBSj4=
@@ -71,6 +71,10 @@
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/cube.svg</key>
 		<data>
 		2zAAH6fhNlup1UjIUMYG5Bnt9tY=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/cube_selected.svg</key>
+		<data>
+		sSLF1exVmmydJoulJM1rL3bgYwQ=
 		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/email_outline.svg</key>
 		<data>
@@ -84,25 +88,57 @@
 		<data>
 		3ciyp86mak/sxuP5l3YmU62e+7w=
 		</data>
-		<key>flutter_assets/packages/foxsys_ui/assets/icons/foxsys_logo.svg</key>
-		<data>
-		3ciyp86mak/sxuP5l3YmU62e+7w=
-		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/home.svg</key>
 		<data>
 		jB1IrD2DprvnTVoCxM15n/hYuqc=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/home_selected.svg</key>
+		<data>
+		4v1XdtvIJcPmTPt+KFQJnh0Mtps=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/key_selected.svg</key>
+		<data>
+		YoovJfSOz98DLaygzmDLbf4+7V4=
 		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/settings.svg</key>
 		<data>
 		K0Ge5/pG0hpODInoz0pnEH1ajIU=
 		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/calendar_selected.png</key>
+		<data>
+		TYIzUvVOGfJwJgL8oiO5IBKF0L0=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/chat_selected.png</key>
+		<data>
+		tFOWL7+EE8wPHegJyqIWIMbCvLs=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/cube.png</key>
+		<data>
+		47Jiljvi++5SxLIgiZ6OgYJTDmM=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/exit.png</key>
+		<data>
+		5vhcxG8VZQoBIuNEqEtIL3E2dPg=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/home_selected.png</key>
+		<data>
+		Jxt+qX0MyG+usAwy0hwSv4o4bGs=
+		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/images/icon.png</key>
 		<data>
 		6isGQDH2ThGJL03tw+Q8NzuXxkU=
 		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/key_selected.png</key>
+		<data>
+		ZpixrTCn6V1KVvnCagTHZojQZSc=
+		</data>
 		<key>flutter_assets/packages/foxsys_ui/assets/images/profile_image.jpg</key>
 		<data>
 		8hyK1Lngwm1twRX2YkBASzWLq9c=
+		</data>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/settings.png</key>
+		<data>
+		EPQuuTXkpiCJ4jhn4JdiKfmEqOY=
 		</data>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>
 		<data>
@@ -119,14 +155,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tbsalveH9BFqfVVp6XjCyIGDMYrxE9YBHpNoY45Xxzw=
+			ZXiyfEX2HwWM28dqIIljU9OU6CRKKwfBcgG69h0N28o=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.smcbin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tHrBCPRU6ZIdD3x7vGIKwhQiGxwr2u/RWawLDc+Kun4=
+			4ThZPDtPbl5uiYkoLj2t+LQzmIpNkr2wgliKaL+/xNw=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -161,21 +197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nuRl/fqSm6PFfFvJi5u2u9YkwrRIdGqfRaWwvU6F8Dg=
-			</data>
-		</dict>
-		<key>flutter_assets/packages/foxsys_ui/assets/fonts/NotoSansDisplay-Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bZ1vOa4/Ev32nNFDIkufN+l521NVhCsqF5OqlNEZFpE=
-			</data>
-		</dict>
-		<key>flutter_assets/packages/foxsys_ui/assets/fonts/NotoSansDisplay-SemiBold.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LyE4DKFIWVKtVp9w+MUQey1D5Imj7PepVA/k70M6DRg=
+			kq3H2bLUMcboS2zR05LENYu7frMds48XbdP9+++VmVc=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/fonts/OpenSans-Regular.ttf</key>
@@ -196,7 +218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fzgk1MnUpJZW1FQvpY/RxkWpUTInNNBVqYYbrjfFcW4=
+			03f2SbguDimRSDOwvL6Nw+zos+zO/j8wTokcHTOcpps=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/back_icon.svg</key>
@@ -213,6 +235,20 @@
 			pCxr2IzZnMPMjzN6ihsZSJQ4F67qCW26++MC1OkZAHE=
 			</data>
 		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/calendar_selected.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9AoIOx4ycD0rpXLzcP5GpLfigC2qU1yIsT3n/Jl9Vzk=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/chat_selected.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5+oHWzF813hkBlBfEP/GeXG6R9icgq0Gd1SCVkYHmsE=
+			</data>
+		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/chatbubble.svg</key>
 		<dict>
 			<key>hash2</key>
@@ -225,6 +261,13 @@
 			<key>hash2</key>
 			<data>
 			w9h32I+QzEQUYvYUG7IjH4qalkCdRTyvgVbwFXHlGbk=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/cube_selected.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			p9FzUd/p/G3q+bFrLZ01rwxrvKBocU0MKq4OQ7j0QuA=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/email_outline.svg</key>
@@ -248,18 +291,25 @@
 			CltxCSF6XARwXhqW+u6PSj7WVYgcH3j3DqmAh2iysvo=
 			</data>
 		</dict>
-		<key>flutter_assets/packages/foxsys_ui/assets/icons/foxsys_logo.svg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CltxCSF6XARwXhqW+u6PSj7WVYgcH3j3DqmAh2iysvo=
-			</data>
-		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/home.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			XnKXbBK9o4884FQXEIatb197sULpN+X/5Ct99lWFVDI=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/home_selected.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uVu684EcnKhxmw3fC+zQHiyuzm4yyLe8SQ1YvwCeWxc=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/icons/key_selected.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			585jqLEU6aJ0sv9ifnMVV6LKJ0fo1aDhTe0oOjczA5I=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/icons/settings.svg</key>
@@ -269,6 +319,41 @@
 			PZq08HURANe6oT+0NbuNyxZDppxOZCPOPZ5q6H6Ps9Y=
 			</data>
 		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/calendar_selected.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hj67nm65J68suqpI91JCNbSkK4zSYRhFEvunXCsJqSk=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/chat_selected.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tua5g/uQH/0Ud42vTEpZ/50E4/j6ijEzxPQZ6Ov1CDo=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/cube.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dN97om0JK8CI0a8M61D0qThGKwAzk6R8QKNRzvir/nA=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/exit.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			70h4vi7ju+Vz/ld+uk+yesm8GHF06mMz19YcFk1NBic=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/home_selected.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y5iWqZcdJiDSaZKA5O7NqMLut0wmO0pqIE2Pi0qGB7o=
+			</data>
+		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/images/icon.png</key>
 		<dict>
 			<key>hash2</key>
@@ -276,11 +361,25 @@
 			anyPDXA+NoIQj5Zi+BMwIjYkDT+PY4uzkeMr+5YFX+8=
 			</data>
 		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/key_selected.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BMuMOLTAnb/DnyNFO/XfPJr6H+F6wrG3xqYZgMdxNzM=
+			</data>
+		</dict>
 		<key>flutter_assets/packages/foxsys_ui/assets/images/profile_image.jpg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Cn13f6HSX9gFkOsSpjzgm4n8Ex85rj6GecUmSAO70D8=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/foxsys_ui/assets/images/settings.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wkXEp83nTweYDoNu4wqivZlaelwhrriydibuboQOyUM=
 			</data>
 		</dict>
 		<key>flutter_assets/shaders/ink_sparkle.frag</key>

@@ -17,10 +17,39 @@ class FoxsysHomeView extends StatelessWidget {
       },
       child: const Scaffold(
         extendBodyBehindAppBar: true,
-        backgroundColor: FOXSYSColors.white,
+        extendBody: true,
         appBar: CustomAppBar(),
         body: _FoxsysHomeForm(),
-        //bottomNavigationBar: FoxsysBottomNavigatorBar(),
+        bottomNavigationBar: FoxsysBottomNavigatorBar(),
+        floatingActionButton: _FloatingButton(),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      ),
+    );
+  }
+}
+
+class _FloatingButton extends StatelessWidget {
+  const _FloatingButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return OutlinedButton(
+      onPressed: () => print("it's pressed"),
+      style: ElevatedButton.styleFrom(
+        side: const BorderSide(width: 2, color: FOXSYSColors.purpleDark),
+        backgroundColor: FOXSYSColors.white,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(32),
+        ),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(
+            horizontal: FOXSYSSpacing.lg, vertical: FOXSYSSpacing.s10),
+        child: Text(
+          '+ Action',
+          style: FOXSYSTextStyle.bodyText1.copyWith(
+              color: FOXSYSColors.purpleDark, fontWeight: FontWeight.w600),
+        ),
       ),
     );
   }
@@ -38,50 +67,3 @@ class _FoxsysHomeForm extends StatelessWidget {
   }
 }
 
-class FoxsysBottomNavigatorBar extends StatelessWidget {
-  const FoxsysBottomNavigatorBar({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
-    return Container(
-      height: size.height * 0.1,
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: const BorderRadius.only(
-          topLeft: Radius.circular(10),
-          topRight: Radius.circular(10),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.grey.withOpacity(0.5),
-            spreadRadius: 2,
-            blurRadius: 4,
-            offset: const Offset(0, 2),
-          ),
-        ],
-      ),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          buildBottomNavigatorItem(Icons.home, size.width * 0.25),
-          buildBottomNavigatorItem(Icons.search, size.width * 0.25),
-          buildBottomNavigatorItem(Icons.people, size.width * 0.25),
-          buildBottomNavigatorItem(Icons.alarm, size.width * 0.25),
-        ],
-      ),
-    );
-  }
-}
-
-SizedBox buildBottomNavigatorItem(IconData icon, double size) {
-  return SizedBox(
-    height: 70,
-    width: size,
-    child: Icon(
-      icon,
-      color: FOXSYSColors.blue,
-      size: 35,
-    ),
-  );
-}

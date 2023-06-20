@@ -279,4 +279,14 @@ abstract class FOXSYSColors {
 
   /// Dark 4 color
   static const Color dark4 = Color(0xFF5D5D6D);
+
+  static const whiteGradient = LinearGradient(
+    colors: [
+      Color(0xFFFFFFFF),
+      Color(0xFFF7F7FB),
+    ],
+    stops: [0.0, 1.0],
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+  );
 }
