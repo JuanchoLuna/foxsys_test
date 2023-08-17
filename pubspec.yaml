@@ -16,7 +16,7 @@ dependencies:
     sdk: flutter
   foxsys_ui:
     path: packages/foxsys_ui
-  intl: ^0.18.0
+  intl: ^0.18.1
   mason: ^0.1.0-dev.49
 
 dev_dependencies:
