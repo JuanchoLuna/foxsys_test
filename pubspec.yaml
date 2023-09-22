@@ -17,7 +17,7 @@ dependencies:
   foxsys_ui:
     path: packages/foxsys_ui
   intl: ^0.18.0
-  mason: ^0.1.0-dev.49
+  mason: ^0.1.0-dev.51
 
 dev_dependencies:
   bloc_test: ^9.1.2
